@@ -1,0 +1,64 @@
+body{
+    text-align: left;
+    background: radial-gradient(circle, black, white);
+}
+header{
+    grid-area: header;
+    padding: 20px;
+    background-color: white;
+    border: 15px;
+    border-color: black;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin: -15px -15px -15px -15px;
+}
+.name{
+   margin-left: 290px;
+    padding: 15px 15px 15px 15px;
+    display: inline-block;
+    background-color: #4aaaa5;
+    color: white;
+    margin-bottom: -20px;
+}
+nav{
+    float: right;
+    margin-right: 300px;
+}
+.mainbox{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.main{
+    margin: 50px 300px 50px 300px;
+    align-content: center;
+    background-color: white;
+    border: 3px solid black;
+    padding: 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#me{
+    text-align: left;
+    margin: 25px 15px 15px 15px;
+    color: #4aaaa5;
+}
+img{
+    float: left;
+    width: 150px;
+    height: auto;
+    padding: 5px 15px 5px 25px;
+}
+#desc{
+    font-size: 20px;
+    line-height: 1.6;
+}
+h2{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: dimgray;
+    color: silver;
+    border-top: 10px solid #4aaaa5;
+}
+#message{
+    width: 960px;
+    height: 500px;
+}
